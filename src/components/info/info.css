@@ -1,0 +1,36 @@
+.info{
+    height: 200px;
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fileds{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.filedsKeys{
+
+}
+
+.filedsValues{
+    margin-left: 10px;
+}
+
+.okBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.filedName{
+    color: blue;
+}
+
+.value{
+    color:red;
+}

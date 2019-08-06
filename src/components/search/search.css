@@ -1,0 +1,14 @@
+.search{
+    position: fixed;
+    background-color: lightblue;
+    width: 100%;
+    z-index: 1;
+    margin-top: 90px;
+    text-align: center;
+    padding: 5px;
+}
+
+.searchInput{
+    border-radius: 10px;
+    padding-left: 1px;
+}

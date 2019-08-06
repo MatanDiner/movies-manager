@@ -1,0 +1,73 @@
+.movie{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.iconsDiv{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 20px;
+    width: 100px;
+}
+
+.imgDiv:hover + .dimWrap{
+    display:block;   
+}
+
+.dimWrap{
+    height: 100px;
+    width: 100px;
+    display: none;
+    position: absolute;
+    bottom: 0px;
+}
+
+.dimWrap:hover{
+    display:block;
+}
+
+.dimDiv{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    opacity: 0.75;
+}
+
+
+
+	
+
+.deleteIcon:hover{
+color: red;
+border:0.5px solid red;
+}
+
+.editIcon:hover{
+color: green;
+border:0.5px solid green;
+}
+
+.infoIcon:hover{
+color:blue;
+border:0.5px solid blue;
+}
+
+.deleteIcon:hover,.editIcon:hover,.infoIcon:hover{
+    background-color: white;
+    padding:1px; 
+    border-radius: 5px;
+    position: relative;
+    bottom: 1px;
+}
+
