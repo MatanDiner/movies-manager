@@ -69,5 +69,6 @@ border:0.5px solid blue;
     border-radius: 5px;
     position: relative;
     bottom: 1px;
+    cursor: pointer;
 }
 
