@@ -7,6 +7,7 @@
     width: 100%;
     position: fixed;
     z-index: 1;
+    padding-bottom: 15px;
 }
 
 h1{
@@ -20,4 +21,5 @@ padding:1px;
 border-radius: 5px;
 position: relative;
 bottom: 1px;
+cursor: pointer;    
 }
